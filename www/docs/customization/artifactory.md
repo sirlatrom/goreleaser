@@ -97,7 +97,7 @@ setting the artifactory section with PEM encoded certificates on a YAML literal
 block like this:
 
 ```yaml
-puts:
+artifactories:
   - name: "some artifactory server with a private TLS certificate"
     #...(other settings)...
     trusted_certificates: |
